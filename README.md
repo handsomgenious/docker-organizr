@@ -2,7 +2,7 @@
 
 Forked from [Linuxserver](https://linuxserver.io)'s repo
 
-Image can be pulled via Docker Hub: [handsomgenious/docker-organizr-v2](https://hub.docker.com/r/handsomgenious/docker-organizr-v2)
+Image can be pulled via Docker Hub: [handsomgenious/organizr-v2](https://hub.docker.com/r/handsomgenious/organizr-v2)
 
 [appurl]: https://github.com/causefx/Organizr
 
@@ -16,7 +16,7 @@ docker create \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -p 80:80 \
-  handsomgenious/docker-organizr-v2
+  handsomgenious/organizr-v2
 ```
 
 ## Parameters
