@@ -5,17 +5,7 @@ Linuxserver Organizr forked to include V2 development branch
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
 [appurl]: https://github.com/causefx/Organizr
-[hub]: https://hub.docker.com/r/lsiocommunity/organizr/
-
-[![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
-
-The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
-* [forum.linuxserver.io][forumurl]
-* [IRC][ircurl] on freenode at `#linuxserver.io`
-* [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
-
-# lsiocommunity/organizr
-[![](https://images.microbadger.com/badges/version/lsiocommunity/organizr.svg)](https://microbadger.com/images/lsiocommunity/organizr "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsiocommunity/organizr.svg)](http://microbadger.com/images/lsiocommunity/organizr "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsiocommunity/organizr.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsiocommunity/organizr.svg)][hub][![Build Status](https://ci.linuxserver.io/buildStatus/icon?job=Docker-Builders/lsiocommunity/x86-64-organizr)](https://ci.linuxserver.io/job/Docker-Builders/job/lsiocommunity/job/x86-64-organizr/)
+[hub]: https://hub.docker.com/r/handsomgenious/docker-organizr-v2
 
 HTPC/Homelab Services Organizer - Written in PHP
 
@@ -29,7 +19,7 @@ docker create \
   -v <path to data>:/config \
   -e PGID=<gid> -e PUID=<uid>  \
   -p 80:80 \
-  lsiocommunity/organizr
+  handsomgenious/docker-organizr-v2
 ```
 
 ## Parameters
