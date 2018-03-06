@@ -1,13 +1,10 @@
-Linuxserver Organizr forked to include V2 development branch
+## Container for Organizr V2 development branch
 
-[linuxserverurl]: https://linuxserver.io
-[forumurl]: https://forum.linuxserver.io
-[ircurl]: https://www.linuxserver.io/irc/
-[podcasturl]: https://www.linuxserver.io/podcast/
+Forked from [Linuxserver](https://linuxserver.io)'s repo
+
+Image can be pulled via Docker Hub: [handsomgenious/docker-organizr-v2](https://hub.docker.com/r/handsomgenious/docker-organizr-v2)
+
 [appurl]: https://github.com/causefx/Organizr
-[hub]: https://hub.docker.com/r/handsomgenious/docker-organizr-v2
-
-HTPC/Homelab Services Organizer - Written in PHP
 
 [![organizr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/organizr-icon.png)][appurl]
 
