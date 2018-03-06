@@ -8,7 +8,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
           org.label-schema.name="docker-organizr-v2" \
           org.label-schema.url="e.g. https://github.com/handsomgenious/docker-organizr-v2" \
           org.label-schema.vcs-ref=$VCS_REF \
-          org.label-schema.vcs-url="https://github.com/causefx/organizr" \
+          org.label-schema.vcs-url="https://github.com/causefx/organizr/tree/v2-develop" \
           org.label-schema.version=$VERSION \
           org.label-schema.schema-version="1.0"
 
