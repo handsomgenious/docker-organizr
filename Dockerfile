@@ -3,8 +3,14 @@ FROM lsiobase/alpine.nginx:3.7
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="Version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="handsomgenious"
+ARG VCS_REF
+LABEL org.label-schema.build-date=$BUILD_DATE \
+          org.label-schema.name="docker-organizr-v2" \
+          org.label-schema.url="e.g. https://github.com/handsomgenious/docker-organizr-v2" \
+          org.label-schema.vcs-ref=$VCS_REF \
+          org.label-schema.vcs-url="https://github.com/causefx/organizr" \
+          org.label-schema.version=$VERSION \
+          org.label-schema.schema-version="1.0"
 
 RUN \
  echo "**** install packages ****" && \
