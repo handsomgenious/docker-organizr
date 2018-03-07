@@ -4,6 +4,8 @@ Forked from [Linuxserver](https://linuxserver.io)'s repo
 
 Image can be pulled via Docker Hub: [handsomgenious/organizr-v2](https://hub.docker.com/r/handsomgenious/organizr-v2)
 
+[![](https://images.microbadger.com/badges/image/handsomgenious/organizr-v2.svg)](https://microbadger.com/images/handsomgenious/organizr-v2 "Get your own image badge on microbadger.com")[![](https://images.microbadger.com/badges/commit/handsomgenious/organizr-v2.svg)](https://microbadger.com/images/handsomgenious/organizr-v2 "Get your own commit badge on microbadger.com")
+
 [appurl]: https://github.com/causefx/Organizr
 
 [![organizr](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/organizr-icon.png)][appurl]
