@@ -1,15 +1,13 @@
 FROM lsiobase/alpine.nginx:3.7
 
-# set version label
-ARG BUILD_DATE
-ARG VERSION
-ARG VCS_REF
+# set label variables
+ARG BUILD_DATE="2018-03-06"
+ARG VCS_REF="125e5ed"
 LABEL org.label-schema.build-date=$BUILD_DATE \
-          org.label-schema.name="docker-organizr-v2" \
-          org.label-schema.url="e.g. https://github.com/handsomgenious/docker-organizr-v2" \
+          org.label-schema.name="organizr" \
+          org.label-schema.url="https://organizr.us/" \
           org.label-schema.vcs-ref=$VCS_REF \
           org.label-schema.vcs-url="https://github.com/causefx/organizr/tree/v2-develop" \
-          org.label-schema.version=$VERSION \
           org.label-schema.schema-version="1.0"
 
 RUN \
