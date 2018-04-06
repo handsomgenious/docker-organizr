@@ -1,8 +1,8 @@
 FROM lsiobase/alpine.nginx:3.7
 
 # set label variables
-ARG BUILD_DATE="2018-03-06"
-ARG VCS_REF="23ccc71"
+ARG BUILD_DATE="2018-04-05"
+ARG VCS_REF="94c79ec"
 LABEL org.label-schema.build-date=$BUILD_DATE \
           org.label-schema.name="organizr" \
           org.label-schema.url="https://organizr.us/" \
