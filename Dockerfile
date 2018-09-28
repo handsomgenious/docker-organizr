@@ -1,4 +1,4 @@
-FROM lsiobase/alpine.nginx:3.7
+FROM lsiobase/alpine.nginx:3.8
 
 # set label variables
 ARG BUILD_DATE="2018-09-27"
@@ -18,7 +18,6 @@ RUN \
 	php7-ldap \
 	php7-pdo_sqlite \
 	php7-sqlite3 \
-	php7-session \
 	php7-zip
 
 # add local files
